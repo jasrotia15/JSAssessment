@@ -31,9 +31,9 @@ function mintNFT (_Name , _Uid , _Section , _CGPA) {
 function listNFTs () {
    for(let i = 0; i<nfts.length; i++){
       console.log("\nName: "+nfts[i].Name);
-      console.log("\nUID: "+nfts[i].UID);
-      console.log("\nSection: "+nfts[i].Section);
-      console.log("\nCGPA: "+nfts[i].CGPA);
+      console.log("UID: "+nfts[i].UID);
+      console.log("Section: "+nfts[i].Section);
+      console.log("CGPA: "+nfts[i].CGPA);
    }
 }
 
